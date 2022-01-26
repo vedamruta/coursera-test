@@ -1,11 +1,14 @@
-body {
+* {
     margin: 0;
     padding: 0;
 }
 
 .navbar {
     background-color: black;
+    margin: 0;
+    padding: 0;
     height: 70px;
+    margin-top: 0px;
 }
 
 .left {
@@ -24,13 +27,7 @@ body {
 
 .center {
     background-color: black;
-    height: 60px;
-}
-
-footer p.center {
-    color: white;
     padding: 34px;
-    text-align: center;
 }
 
 .navbar ul li a {
@@ -44,4 +41,11 @@ footer p.center {
     display: inline-block;
     padding: 34px;
     text-align: right;
+}
+
+footer {
+    margin: 0px;
+    height: 50px;
+    color: white;
+    text-align: center;
 }
